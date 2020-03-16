@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style= "background-color:#68bc5a">
+        <img src="https://www.redwolf.in/image/catalog/artwork-Images/mens/teenage-mutant-ninja-turtles-pizza-power-design-image.jpg" id="mini-logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <!-- Login Drop Down-->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    LOGIN
+                    </a>
+                </li>
+                <li class="nav-item active" style="margin-left: 45px;">
+                    <!-- Sign Up Botton-->
+                    <a href=#><button class="btn btn-outline-success my-2 my-sm-0" type="submit">SIGN UP</button></a>
+                </li>
+            </ul>
+
+            <!-- Shopping Cart-->
+            <div class="shoppingcart">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-right: 45px;">ORDER NOW</button>
+                    <img src="https://live.staticflickr.com/65535/49662005807_d6020b03cc_m.jpg" id="cart-logo">
+                    <span class="price"><span class="sup">$</span>0.00</span>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+
+    <section class="partdeux">
+        <li class="lineactive">
+            <!-- MENU Botton-->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">MENU</button>
+        </li>
+        <li class="lineactive">
+            <!-- NUTRITION Botton-->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">NUTRITION</button>
+        </li>
+        <li class="lineactive">
+            <!-- LOCATIONS Botton-->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">LOCATIONS</button>
+        </li>
+        <li class="lineactive">
+            <!-- COUPONS Botton-->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">COUPONS</button>
+        </li>
+        <li class="lineactive">
+            <form>
+                <!--SEARCH BAR-->
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </li>
+    </section>
+
+    <!-- Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81jRSp5JlNL._AC_SL1500_.jpg" class="d-block w-100" alt="First Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://susanlucas.typepad.com/.a/6a00e553f2bbde8833019aff45add9970b-pi" class="d-block w-100" alt="Second Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://raster-static.postmates.com/?url=com.postmates.img.prod.s3.amazonaws.com/1310f1f6-630b-4990-8081-89b986888a78/orig.jpg&quality=90&w=1500&h=900&mode=crop&format=jpg&v=4" class="d-block w-100" alt="Third Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" data-interval="25">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section class="main-section">
+        <div class="sidebar">
+        <!--PIZZA-->
+        <h3>PIZZA</h3>
+        <a href=#><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQoKrXzDKhAbM4uuFni3ITZhab0XMsVVcl0IK5urVCa9qH8Wt2p" class="menu-pic"></a>
+        <!--SIDES-->
+        <h3>SIDES</h3>
+        <a href=#><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSufO6Fvbrwa_ClsrSDGjrLPEXsoAicDC3wRerd8mdasswSIEfp" class="menu-pic"></a>
+        <!--SALADS-->
+        <h3>SALADS</h3>
+        <a href=#><img src="https://live.staticflickr.com/65535/49663567453_2a60e378f6_m.jpg" class="menu-pic"></a>
+        <!--DESSERTS-->
+        <h3>DESSERTS</h3>
+        <a href=#><img src="https://media-cdn.tripadvisor.com/media/photo-s/12/23/64/11/melt-in-your-mouth-desserts.jpg" class="menu-pic"></a>
+        </div>
+    
+        <!--FOOD SECTIONS-->
+        <div class="specialties">
+            <br>
+            <br>
+            <!--SECTION 3-->
+            <h2 id="specialty"><b><u>SPECIALTY PIZZAS</b></u></h2>
+            <br>
+            <!--List Special 1-->
+            <h4 class= "specialty-header"><u>The Sewer Surfer</u></h4>
+            <p class = "specialty-text">After Catching a ride on the algea-green waves of the sewer, 
+            the brothers crave this radical pie topped with red sauce, 
+            chunks of ham,juicy pineapple, and lots of oozy mozzarella.</p>
+            <!--List Special 2-->
+            <h4 class="specialty-header"><u>Mikey's Meatzza Mayhem</u></h4>
+            <p class = "specialty-text">Can't decide which meat topping to put on your pizza? 
+            Do what Michelangelo does-use all of them! 
+            This version is topped with sausage, ground beef, bacon, and pepperoni.</p>
+            <!--List Special 3-->
+            <h4 class="specialty-header"><u>Shredder's Revenge</u></h4>
+            <p class = "specialty-text">Shredder is one stressed-out bad guy. To unwind, 
+            he likes to shut himself in the kitchen and let his blades loose on whatever veggies he can find. 
+            This pizza is the delicious result of one of his more violent tantrums.</p>
+            <!--List Special 4-->
+            <h4 class="specialty-header"><u>The April O'Neil</u></h4>
+            <p class = "specialty-text">The bright orange color of this pizza is nearly the same shade as April's hair. 
+            With sweet potatoes and spicy mustard, 
+            this pie is unique and fierce... Just like April!</p>
+            <!--List Special 5-->
+            <h4 class="specialty-header"><u>Raph's Rude 'Shrooms</u></h4>
+            <p class = "specialty-text">The flavor of this pie is cool but rude, just like Raphael! It's piled with garlic, 
+                mushrooms, onions, and fontina cheese, so prepare yourself for some serious ninja breath, 
+                You might not think it's rude, but the next person who talks to you will!</p>
+            <img src="https://media3.giphy.com/media/TpbXAzb4pcpQk/source.gif" id="yum-gif">
+            <!--List Special 6-->
+            <h4 class="specialty-header"><u>The Lean, Mean, and Green</u></h4>
+            <p class = "specialty-text">The Turtles always thought, cheese-less pizza was a bogus idea... 
+            until Master Splinter whipped this one up, inspired by his Japanese heritage. 
+            Topped with crumbled tofu and crammed full of vibrant flavors, 
+            it satisfies all the requirements for a radical pie, 
+            and it's the perfect thing to serve when vegan friends come down to the lair.</p>
+            <!--List Special 7-->
+            <h4 class="specialty-header"><u>Four-Cheese For Four Bros</u></h4>
+            <p class = "specialty-text">Once, to snap the Turtles out of a bummer mood, 
+            Master Splinter brought them a pizza topped with ninety-nine different cheeses. 
+            Of course it did the trick. This one isnt that gnarly, but it is a start!</p>
+            <!--List Special 8-->
+            <h4 class="specialty-header"><u>Holy Guacamole!</u></h4>
+            <p class = "specialty-text">Avacado, tomato, red onion, and jalepeno are a classic flavor combination. 
+                So why not mash them all together on some dough? It's like one giant nacho!</p>
+            <!--List Special 9-->
+            <h4 class="specialty-header"><u>The Breakfast Pie</u></h4>
+            <p id = "specialty-text2">The ultimate breakfast... or lunch... or dinner... of champions. 
+                Michelangelo likes to top this one off with a splash of hot sauce or a few squirts of ketchup.</p>
+        </div>
+    </section>
+    
+</body>
+<footer class="footer" style= "background-color: #f29921">
+
+           <p id="follow-us">Follow Us:</p>
+            <!--Facebook-->
+                <a href=#><img src="https://www.facebook.com/images/fb_icon_325x325.png" class="social-media"></a>
+            <!--Instagram-->
+                <a href=#><img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" class="social-media"></a>
+            <!--Twitter-->
+                <a href=#><img src="https://cfcdnpull-creativefreedoml.netdna-ssl.com/wp-content/uploads/2017/06/Twitter-featured.png" class="social-media"></a>
+            <!--Privacy-->
+            <a href=#><p class="follow">Privacy</p></a> 
+            <!--Terms of Use-->
+            <a href=#><p class="follow">Terms of Use</p></a> 
+            <!--Site Map-->
+            <a href=#><p class="follow">Site Map</p></a> 
+            <!--Email Coupons and Offers-->
+           <a href=#><p class="follow">Coupons & Offers</p></a> 
+</footer>
+</html>
