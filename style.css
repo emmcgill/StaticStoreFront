@@ -1,0 +1,150 @@
+.navbar{
+    height: 110px;
+}
+
+.btn{
+    color: whitesmoke;
+    border: #68bc5a;
+}
+
+.button:hover{
+    background-color: #68bc5a;
+    text-decoration-color: whitesmoke;
+}
+
+#navbarDropdown{
+    color: whitesmoke;
+    height: 50px;
+}
+
+#mini-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#cart-logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 25%;
+}
+
+.price{
+    color: whitesmoke;
+}
+
+.partdeux{
+    height: 65px;
+    background-color: #f29921;
+
+}
+
+
+.lineactive{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.w-100 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 65% !important;
+    height: 65vh;
+}
+
+.main-section{
+    background-color:  #68bc5a;
+    color: whitesmoke;
+}
+
+.sidebar{
+    background-color: #f29921;
+    color: whitesmoke;
+    width: 238px;
+    float: left;
+    position: relative;
+    display: block;
+    margin: 35px 3.0px 3.0px 25px;
+    padding: 15px 15px 15px 15px;
+
+}
+#specialty{
+    text-align: center;
+    margin-right: 275px;
+}
+
+.menu-pic{
+    height: 200px;
+    width: 200px;
+}
+
+.footer{
+    background-color: #f29921;
+    
+}
+
+.specialties{
+    margin-left: 200px;
+}
+
+#yum-gif{
+    margin-left: 35px;
+    float: right;
+    margin-right: 35px;
+}
+
+.specialty-text{
+    margin-right: 125px;
+    padding-left: 100px;
+    font-size: 16.5px;
+}
+
+#specialty-text2{
+    margin-right: 125px;
+    padding-left: 100px;
+    font-size: 16.5px;
+    padding-bottom: 25px;
+
+}
+
+.specialty-header{
+    padding-left: 85px;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    margin-top: -25px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.social-media{
+    height: 25px;
+    width: 25px;
+    border-radius: 35%;
+    margin-left: 5px;
+    
+}
+
+.follow{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#follow-us{
+    margin-top: 15px;
+    margin-left: 500px;
+}
+
+a{
+    color: whitesmoke;
+}
